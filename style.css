@@ -30,15 +30,14 @@ h2{
 
 .half-width{
     width: 50%;
-    padding: 0% 5%; 
-
+    padding-left: 3%;
+    padding-top: 3%;    
 }
 
 .half-width img{
-    max-height: 80%;
     max-width: 80%;
+    height: auto;
 }
-
 
 
 .gradient-link{
@@ -54,8 +53,31 @@ h2{
 #just-eat{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
+}
+
+
+.healthy-recipies{
+    text-align: center;
+}
+
+
+.healthy-recipies-items{
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+
+.healthy-recipies-item{
+    width: 17%;
+    padding-right:3%;
+    
+}
+
+.healthy-recipies-item img{
+    width: 100%;
+    height: auto;
 }
 
 .my-recipies{
@@ -63,53 +85,29 @@ h2{
     text-align: center;
 }
 
-.receipie-title{
-    width:30%;
+.my-recipies .flex-box{
+    align-items: stretch;
+}
+
+.my-recipies-item{
     margin-right: 3%;
-    padding-top: 10px;
-    padding: 20px 30px;
+    padding: 2% 2%;
     text-align: left;
     color:black;
+}
+
+.my-recipies-item img{
+    width: 100%;
 }
 
 .shadow-border{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
     border-radius: 20px;
 }
-.receipie-title img{
-    width: 100%;
-}
-
 
 .footer{
     background-color: black;
     text-align: center;
-    padding: 20px 0 40px 0;
+    padding: 20px 0 40px;
     margin-top: 50px;
 }
-
-.recipie-cloud{
-    text-align: center;
-}
-
-
-.recipie-cloud-items{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2%;
-}
-
-.recipie-cloud-item{
-    width: 17%;
-    padding-right:3%;
-    
-}
-
-.recipie-cloud-item img{
-    width: 100%;
-}
-
-/* .recipie-cloud-item a{
-    text-decoration: none;
-} */
