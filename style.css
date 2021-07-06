@@ -5,11 +5,23 @@ body{
 
 }
 
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
 #top-part h1{
     margin: 0;
 }
 
-.flex-container{
+.orange-font{
+    color: orange;
+}
+
+.flex-box{
     display: flex;
     align-items: center;
     margin-top: 50px;
@@ -29,19 +41,6 @@ body{
 
 
 
-
-h1{
-    font-size: 50px;
-}
-
-h2{
-    font-size: 40px;
-}
-
-.orange-font{
-    color: orange;
-}
-
 .gradient-link{
     text-decoration: none;
     color: white;
@@ -52,7 +51,7 @@ h2{
     margin-top: 10px;
 }
 
-#just-eat-background{
+#just-eat{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: 100%;
