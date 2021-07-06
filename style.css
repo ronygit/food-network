@@ -5,6 +5,17 @@ body{
 
 }
 
+#top-part h1{
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .half-width{
     width: 50%;
     padding: 0% 5%; 
@@ -16,12 +27,6 @@ body{
     max-width: 80%;
 }
 
-.flex-container{
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 
 
